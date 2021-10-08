@@ -19,8 +19,6 @@
             background-color: crimson; 
             border-radius: 50%;
             border-top-left-radius: 0;
-            // border-top-right-radius: 0;
-            // border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
             display: flex;
             align-items: center;
@@ -37,11 +35,10 @@
             }
 
             img{
-                height: 90%;
-                width: 90%;
-                border-radius: 55%;
+                height: 95%;
+                width: 95%;
+                border-radius: 50%;
                 z-index: 1;
-
 
                 @include mobile{
                     height: 100%;

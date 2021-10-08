@@ -1,7 +1,7 @@
 import './intro.scss';
 import { init } from 'ityped'
 import { useEffect, useRef } from 'react';
-import Myphoto from '../../assets/Myphotoweb.jpg';
+import Myphoto from '../../assets/IntroPhoto.jpg';
 import DownArrow from '../../assets/downArrow.png';
 
 export default function Intro() {
