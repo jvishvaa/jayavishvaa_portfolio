@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jayavishvaa.github.io/Jayavishvaa_Website",
+  "homepage": "https://jvishvaa.github.io/jayavishvaa_portfolio",
   "name": "jayavishvaa_portfoliio",
   "version": "0.1.0",
   "private": true,
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
