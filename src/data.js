@@ -19,6 +19,19 @@ import WhenBus4 from './assets/WhenBus/Whenbus4.jpg';
 import WhenBus5 from './assets/WhenBus/Whenbus5.jpg';
 import WhenBus6 from './assets/WhenBus/Whenbus6.png';
 
+import Edu1 from './assets/Eduvisory/edu1.png';
+import Edu2 from './assets/Eduvisory/edu2.png';
+import Edu3 from './assets/Eduvisory/edu3.png';
+import Edu4 from './assets/Eduvisory/edu4.png';
+import Edu5 from './assets/Eduvisory/edu5.png';
+import Edu6 from './assets/Eduvisory/edu6.png';
+
+import Crm1 from './assets/CRM/crm1.png';
+import Crm2 from './assets/CRM/crm2.png';
+import Crm3 from './assets/CRM/crm3.png';
+import Crm4 from './assets/CRM/crm4.png';
+import Crm5 from './assets/CRM/crm5.png';
+import Crm6 from './assets/CRM/crm6.png';
 
 
 export const OsaPortfolio = [
@@ -123,3 +136,70 @@ export const WhenBusPortfolio = [
     },
 ]
 
+export const EduvisoryPortfolio = [
+
+    {
+        id:1,
+        title: 'Home Page',
+        img: Edu3
+    },
+    {
+        id:2,
+        title: 'Explore Your Need',
+        img: Edu2
+    },
+    {
+        id:3,
+        title: 'Scholarship page',
+        img: Edu1
+    },
+    {
+        id:4,
+        title: 'Mentors page',
+        img: Edu4
+    },
+    {
+        id:5,
+        title: 'Website Services',
+        img: Edu5
+    },
+    {
+        id:6,
+        title: 'Become a mentor',
+        img: Edu6
+    },
+]
+
+export const CrmPortfolio = [
+
+    {
+        id:1,
+        title: 'All Leads Page',
+        img: Crm1
+    },
+    {
+        id:2,
+        title: 'Add Lead',
+        img: Crm2
+    },
+    {
+        id:3,
+        title: 'Lead Activity',
+        img: Crm3
+    },
+    {
+        id:4,
+        title: 'Update Lead Details',
+        img: Crm4
+    },
+    {
+        id:5,
+        title: 'Add Hotspot',
+        img: Crm5
+    },
+    {
+        id:6,
+        title: 'Filters for lead table',
+        img: Crm6
+    },
+]

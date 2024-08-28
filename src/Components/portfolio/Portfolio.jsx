@@ -1,7 +1,7 @@
 import './portfolio.scss';
 import PortfolioList from '../portfolioList/PortfolioList';
 import { useState, useEffect } from 'react';
-import { OsaPortfolio, FleetPortfolio, WhenBusPortfolio, } from '../../data';
+import { OsaPortfolio, FleetPortfolio, WhenBusPortfolio, EduvisoryPortfolio, CrmPortfolio } from '../../data';
 
 export default function Portfolio() {
 
@@ -9,6 +9,10 @@ export default function Portfolio() {
     const [Data, setData] = useState([])
 
     const List = [
+        {
+            id: 'CRM',
+            title: 'CRM Website'
+        },
         {
             id: 'Fleet',
             title: 'Driver Assitance App'
@@ -22,12 +26,19 @@ export default function Portfolio() {
             id: 'shopping',
             title: 'Shopping App'
         },
+        {
+            id: 'eduvisory',
+            title: 'Eduvisory Ed-Tech Website'
+        }
         
     ]    
 
     useEffect(() => {
 
         switch(Selected){
+            case "CRM":
+                setData(CrmPortfolio);
+                break;
             case "Fleet":
                 setData(FleetPortfolio);
                 break;
@@ -37,8 +48,11 @@ export default function Portfolio() {
             case "shopping":
                 setData(OsaPortfolio);
                 break;
+            case "eduvisory":
+                setData(EduvisoryPortfolio);
+                break;
             default:
-                setData(FleetPortfolio);
+                setData(CrmPortfolio);
             
         }
         

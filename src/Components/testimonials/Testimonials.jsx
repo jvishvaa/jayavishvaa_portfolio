@@ -12,7 +12,7 @@ export default function Testimonials() {
             describ: "Spearheaded a team of 17 coordinators working on the budget of INR 4 lakhs to conduct 15+ events across India.",
             describ1: " Strategized PR campaign targeting 300+ people & online milans targeting 700+ participants across the country",
             img: IITLogo,
-            name: 'Strategist Saarang'
+            name: 'Strategist Saarang',
         },
         {
             id: 2,
@@ -37,7 +37,7 @@ export default function Testimonials() {
 
     return (
         <div className="testimonials" id="testimonials">
-            <h1>Work Experience</h1>
+            <h1>Position of Responsiblity</h1>
             <div className="container">
                 {data.map((p) => (
                     <div className={p.featured ? "card featured" : "card"}>

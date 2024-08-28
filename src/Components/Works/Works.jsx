@@ -4,6 +4,7 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import { useState } from 'react';
 // import DirectionsCarIcon from '@material-ui/icons/DirectionsCar';
 
+import Crm from '../../assets/CRM/crm.png';
 import Fleet from '../../assets/Fleet/Fleet2.jpg';
 import WhenBus from '../../assets/WhenBus/Whenbus1.jpg';
 import OSA from '../../assets/OSA/OSA5.jpg';
@@ -17,9 +18,17 @@ export default function Works() {
     const [CurrSlide, setCurrSlide] = useState(0);
 
     const data = [
-
         {
             id: 1,
+            icon: FleetIcon,
+            title: "CRM Project",
+            describ: "This software is designed to manage marketing activities for school websites, helping to organize and categorize leads based on their interests.",
+            img: Crm,
+            github: 'https://github.com/jvishvaa/Crm-project/tree/jayavishvaa-stage-gcp',
+            width: 800
+        },
+        {
+            id: 2,
             icon: FleetIcon,
             title: "Driver assistance application",
             describ: "This software is aimed to provide optimal fleet management and routing for the IIT Madras logistics domain",
@@ -27,7 +36,7 @@ export default function Works() {
             github: 'https://github.com/jayavishvaa/Fleet_And_Vehicle_Tracking'
         },
         {
-            id: 2,
+            id: 3,
             icon: WhenBusIcon,
             title: "Crowdsourced public transportation App",
             describ: "This software is used for providing real-time tracking information of public transportation vehicles by utilizing crowdsourced data from the users",
@@ -35,7 +44,7 @@ export default function Works() {
             github: 'https://github.com/jayavishvaa/WhenBus'
         },
         {
-            id: 3,
+            id: 4,
             icon: OSAIcon,
             title: "Shopping App",
             describ: "This software is aimed to provide a shopping platform for both the seller and customer where mainly targetting the supermarkets",
@@ -70,7 +79,7 @@ export default function Works() {
                                 </div>
                             </div>
                             <div className="right">
-                                <img src={d.img} alt=""/>
+                                <img src={d.img} alt="" width={data?.width} style={{width: d.width ? `${d.width}px` : '350px'}}/>
                             </div>
                         </div>
                     </div>
