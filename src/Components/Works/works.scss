@@ -145,3 +145,31 @@
          }
      }
  }
+
+ @media screen and (max-width: 1000px) and (min-width: 768px) {
+     .works .arrow.right{
+         right: 18px;
+     }
+
+     .works .arrow.left{
+         left: 18px
+     }
+
+     .works .slider .container .item {
+         width: 600px;
+     }
+ }
+
+ @media screen and (max-width: 770px) and (min-width: 590px) {
+    .works .slider .container .item {
+        margin: 6px 0;
+    }
+}
+
+ @media screen and (max-width: 768px) {
+    .works .slider .container .item {
+        width: 65%;
+        height: 135px;
+        // margin: 10px 0;
+    }
+}

@@ -8,22 +8,36 @@
 
     h1{
         font-size: 50px;
-
+        padding: 10px;
+        white-space: nowrap; /* Prevents text from wrapping */
+        overflow: hidden;    /* Hides overflow if text exceeds container width */
+        text-overflow: ellipsis; /* Adds "..." if text overflows */
+        max-width: 100%; 
         @include mobile{
             font-size: 20px;
+            padding: 5px;
         }
     }
 
     ul{
         margin: 10px;
+        // padding: 5px;
         padding: 0;
         list-style: none;
         display: flex;
+        height: auto;
+
+        li{
+            overflow-y: hidden;
+            padding: 10px;
+        }
+
 
         @include mobile{
             margin: 10px 0;
             flex-wrap: wrap;
             justify-content: center;
+            white-space: normal;
         }
     }
 
@@ -87,6 +101,177 @@
                 img{
                     opacity: 0.2;
                     z-index: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 855px) and (min-width: 768px) { 
+    .portfolio{
+
+        ul{
+            width: 90%;
+        }
+
+        .container{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            // margin-top: 5%;
+    
+    
+            .item{
+                width: 250px;
+                height: 170px;
+                border-radius: 20px;
+                border: 1px solid lightgray;
+                margin: 10px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: whitesmoke;
+                position: relative;
+                transition: all .5s ease;
+                cursor: pointer;
+                background-color:whitesmoke;
+                text-align: center;
+    
+                h3{
+                    position: absolute;
+                    font-size: 20px;
+                }
+    
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    z-index: 1;
+                }
+    
+                &:hover{
+                    background-color: $mainColor;
+    
+                    img{
+                        opacity: 0.2;
+                        z-index: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 585px) { 
+    .portfolio{
+
+        ul{
+            width: 90%;
+        }
+
+        .container{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            // margin-top: 5%;
+    
+    
+            .item{
+                width: 250px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid lightgray;
+                margin: 10px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: whitesmoke;
+                position: relative;
+                transition: all .5s ease;
+                cursor: pointer;
+                background-color:whitesmoke;
+                text-align: center;
+    
+                h3{
+                    position: absolute;
+                    font-size: 20px;
+                }
+    
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    z-index: 1;
+                }
+    
+                &:hover{
+                    background-color: $mainColor;
+    
+                    img{
+                        opacity: 0.2;
+                        z-index: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 585px) and (min-width: 490px) { 
+    .portfolio{
+
+        ul{
+            width: 90%;
+        }
+
+        .container{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            // margin-top: 5%;
+    
+    
+            .item{
+                width: 180px;
+                height: 180px;
+                border-radius: 20px;
+                border: 1px solid lightgray;
+                margin: 10px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: whitesmoke;
+                position: relative;
+                transition: all .5s ease;
+                cursor: pointer;
+                background-color:whitesmoke;
+                text-align: center;
+    
+                h3{
+                    position: absolute;
+                    font-size: 20px;
+                }
+    
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    z-index: 1;
+                }
+    
+                &:hover{
+                    background-color: $mainColor;
+    
+                    img{
+                        opacity: 0.2;
+                        z-index: 0;
+                    }
                 }
             }
         }
