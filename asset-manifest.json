@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/jayavishvaa_portfolio/static/css/main.967bd84e.chunk.css",
-    "main.js": "/jayavishvaa_portfolio/static/js/main.3fc4481e.chunk.js",
-    "main.js.map": "/jayavishvaa_portfolio/static/js/main.3fc4481e.chunk.js.map",
+    "main.css": "/jayavishvaa_portfolio/static/css/main.574a3367.chunk.css",
+    "main.js": "/jayavishvaa_portfolio/static/js/main.b59d8a16.chunk.js",
+    "main.js.map": "/jayavishvaa_portfolio/static/js/main.b59d8a16.chunk.js.map",
     "runtime-main.js": "/jayavishvaa_portfolio/static/js/runtime-main.c6de6bda.js",
     "runtime-main.js.map": "/jayavishvaa_portfolio/static/js/runtime-main.c6de6bda.js.map",
     "static/js/2.9af5fd2b.chunk.js": "/jayavishvaa_portfolio/static/js/2.9af5fd2b.chunk.js",
     "static/js/2.9af5fd2b.chunk.js.map": "/jayavishvaa_portfolio/static/js/2.9af5fd2b.chunk.js.map",
     "index.html": "/jayavishvaa_portfolio/index.html",
-    "static/css/main.967bd84e.chunk.css.map": "/jayavishvaa_portfolio/static/css/main.967bd84e.chunk.css.map",
+    "static/css/main.574a3367.chunk.css.map": "/jayavishvaa_portfolio/static/css/main.574a3367.chunk.css.map",
     "static/js/2.9af5fd2b.chunk.js.LICENSE.txt": "/jayavishvaa_portfolio/static/js/2.9af5fd2b.chunk.js.LICENSE.txt",
     "static/media/Contact.5a540537.png": "/jayavishvaa_portfolio/static/media/Contact.5a540537.png",
     "static/media/Fleet1.dcac2bcf.png": "/jayavishvaa_portfolio/static/media/Fleet1.dcac2bcf.png",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.c6de6bda.js",
     "static/js/2.9af5fd2b.chunk.js",
-    "static/css/main.967bd84e.chunk.css",
-    "static/js/main.3fc4481e.chunk.js"
+    "static/css/main.574a3367.chunk.css",
+    "static/js/main.b59d8a16.chunk.js"
   ]
 }
